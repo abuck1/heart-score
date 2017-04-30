@@ -1,0 +1,24 @@
+{
+  "name": "heart-score",
+  "version": "0.0.0",
+  "description": "heart-score",
+  "main": "server.js",
+  "author": "Aaron",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abuck1/nodejs-bootstrap.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abuck1/nodejs-bootstrap/issues"
+  },
+  "homepage": "https://github.com/abuck1/nodejs-bootstrap#readme"
+}
