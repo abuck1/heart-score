@@ -14,11 +14,11 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    //"url": "git+https://github.com/abuck1/nodejs-bootstrap.git"
-  }
-  //"license": "ISC",
-  //"bugs": {
-  //  "url": "https://github.com/abuck1/nodejs-bootstrap/issues"
-  //},
-  //"homepage": "https://github.com/abuck1/nodejs-bootstrap#readme"
+    "url": "git+https://github.com/abuck1/nodejs-bootstrap.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abuck1/nodejs-bootstrap/issues"
+  },
+  "homepage": "https://github.com/abuck1/nodejs-bootstrap#readme"
 }
