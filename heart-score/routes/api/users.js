@@ -1,13 +1,12 @@
-'use strict';
+var express = require('express');
+var router = express.Router();
 
-var express = require('express')
-var app = express()
-
-app.get('/', function (req, res) {
-    res.send('Hello Fran :)')
+/* GET users listing. */
+router.get('/', function(req, res, next) {
+  res.send('respond with a resource');
 });
 
-app.get('/drinks/:user', function (req, res) {
+router.get('/drinks/:user', function (req, res, next) {
     var user_drinks = {
         user_id: req.params.user,
         drinks: [
@@ -27,12 +26,10 @@ app.get('/drinks/:user', function (req, res) {
                 name: "strong_spirit",
                 units: 3
             }
-        ]};
+        ]
+    };
 
     res.send(user_drinks);
 });
 
-var port = process.env.PORT || 3000;
-app.listen(port, function () {
-    console.log('server restarted: ', Date().valueOf(), ' on port:', port);
-})
+module.exports = router;

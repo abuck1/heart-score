@@ -1,0 +1,22 @@
+{
+  "name": "heart-score",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "dev": "DEBUG=heart-score:* npm start",
+    "dev-windows": "set DEBUG=heart-score:* & npm start",
+    "heroku-dev": "npm install && nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "less-middleware": "~2.2.0",
+    "morgan": "~1.8.1",
+    "nodemon": "^1.11.0",
+    "serve-favicon": "~2.4.2"
+  }
+}
