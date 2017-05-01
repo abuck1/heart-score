@@ -1,0 +1,2 @@
+C:\Users\Aaron\Source\Repos\heart-score\heart-score\obj\Debug\heart-score.njsprojResolveAssemblyReference.cache
+C:\Users\Aaron\Source\Repos\heart-score\heart-score\bin\Microsoft.NodejsTools.WebRole.dll
